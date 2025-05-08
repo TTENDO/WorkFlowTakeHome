@@ -1,10 +1,8 @@
 # WorkFlowTakeHome
 
-# WorkflowShowCase
+## Dynamic Survey Workflow API (ASP.NET Core)
 
-# Dynamic Survey Workflow API (ASP.NET Core)
-
-## Overview
+### Overview
 
 This API is designed to solve the challenge of **standardizing and staging diverse JSON data** from multiple survey tools (e.g., KoboToolbox, ODK, SurveyCTO). These tools often submit data in different formats, making it difficult to process uniformly.
 
@@ -16,7 +14,7 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-## Problem Statement
+### Problem Statement
 
 - Survey tools have varying data formats (schemas).
 - Data must be validated for required fields (e.g., `respondent`).
@@ -26,7 +24,7 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-## Technologies
+### Technologies
 
 - **ASP.NET Core Web API (.NET 8)**
 - **Dependency Injection**
@@ -36,7 +34,7 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-## Architecture Overview
+### Architecture Overview
 
 - `/Services/IGenericDataParser` enables pluggable logic per survey tool.
 - `/Services/WorkflowStagingService` handles validation, transformation, and staging logic.
@@ -44,7 +42,7 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-## Validation Logic
+### Validation Logic
 
 - Checks for required fields (e.g., `"respondent"`)
 - Ensures values are not null or empty
@@ -52,9 +50,9 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-## How to Run the API
+##$ How to Run the API
 
-### Prerequisites
+#### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Visual Studio 2022
 
