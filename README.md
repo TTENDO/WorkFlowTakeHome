@@ -65,9 +65,6 @@ cd survey-workflow-api
 dotnet build
 dotnet run
 
-## The API will run at:
-http://localhost:5000 or https://localhost:5001
-
 ### Sample Request
 JSON Payload
 {
