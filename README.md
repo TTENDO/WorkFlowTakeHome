@@ -59,6 +59,8 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ```bash
 git clone https://github.com/TTENDO/WorkFlowTakeHome.git
+
+### Navigate to the API project directory e.g
 cd survey-workflow-api
 
 ### Build and Run
@@ -74,6 +76,13 @@ JSON Payload
 }
 
 ```
+
+## Visual studio UI
+-After running git clone succesfully
+-Open the solution in VS 2022
+-Run the build command (Build -> Buld Solution or press CTRL + sHIFT + B)
+-Run the project (CTRL + F5)
+
 
 ## Contributors
 [Namaganda Rebecca](https://github.com/TTENDO)
