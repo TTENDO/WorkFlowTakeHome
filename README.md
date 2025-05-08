@@ -78,10 +78,10 @@ JSON Payload
 ```
 
 ## Visual studio UI
--After running git clone succesfully
--Open the solution in VS 2022
--Run the build command (Build -> Buld Solution or press CTRL + sHIFT + B)
--Run the project (CTRL + F5)
+- After running git clone succesfully
+- Open the solution in VS 2022
+- Run the build command (Build -> Buld Solution or press CTRL + sHIFT + B)
+- Run the project (CTRL + F5)
 
 
 ## Contributors
