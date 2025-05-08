@@ -50,12 +50,13 @@ The solution provides a **flexible workflow staging layer**, which:
 
 ---
 
-##$ How to Run the API
+### How to Run the API (2 ways)
 
 #### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Visual Studio 2022
 
+##### 1. in the terminal
 
 ```bash
 git clone https://github.com/TTENDO/WorkFlowTakeHome.git
@@ -77,10 +78,10 @@ JSON Payload
 
 ```
 
-## Visual studio UI
+#### 2. Visual studio UI
 - After running git clone succesfully
 - Open the solution in VS 2022
-- Run the build command (Build -> Buld Solution or press CTRL + sHIFT + B)
+- Run the build command (Build -> Buld Solution or press CTRL + SHIFT + B)
 - Run the project (CTRL + F5)
 
 
